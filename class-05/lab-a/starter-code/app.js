@@ -82,8 +82,9 @@ function sumArray(tastArray) { //eslint-disable-line
   let a = testArray[0];
   let b = testArray[1];
   let c = testArray[2];
-  let total = sumAndMultiply(a, b, c)[0];
-  return[total,`${a},${b},${c} was passed in as an array of numbers, and ${total} is their sum.`]
+  let total = sum(a, b)[0];
+  let total2 = sum(total,c)[0];
+  return[total2,`${a},${b},${c} was passed in as an array of numbers, and ${total2} is their sum.`]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
