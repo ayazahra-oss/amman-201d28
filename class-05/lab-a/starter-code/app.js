@@ -83,7 +83,7 @@ function sumArray(arr) { //eslint-disable-line
 for(var i = 0 ; i < arr.length ; i++)
 {sum1+=arr[i];}
 
-return [sum1,`${arr[0]},${arr[1]},${arr[2]} was passed in as an array of numbers, and ${sum1} is their sum.`];d
+return [sum1,`${arr[0]},${arr[1]},${arr[2]} was passed in as an array of numbers, and ${sum1} is their sum.`];
 
 
 }
