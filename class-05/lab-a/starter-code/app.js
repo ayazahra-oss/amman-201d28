@@ -78,14 +78,12 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 let testArray = [2, 3, 4]; //eslint-disable-line
 
-function sumArray(arr) { //eslint-disable-line
-  let sum1 = 0;
-for(var i = 0 ; i < arr.length ; i++)
-{sum1+=arr[i];}
-
-return [sum1,`${arr[0]},${arr[1]},${arr[2]} was passed in as an array of numbers, and ${sum1} is their sum.`];
-
-
+function sumArray(tastArray) { //eslint-disable-line
+  let a = testArray[0];
+  let b = testArray[1];
+  let c = testArray[2];
+  let total = sumAndMultiply(a, b, c)[0];
+  return[total,`${a},${b},${c} was passed in as an array of numbers, and ${total} is their sum.`]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
